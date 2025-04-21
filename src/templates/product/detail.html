@@ -1,9 +1,0 @@
-{%extends "base.html"%}
-
-
-{%block content%}
-<h3 class="item_title">title: {{obj.title}}</h3>
-<p>description: {%if obj.description is not None and obj.description != ''%}{{obj.description}} {%else%} description comming soon {%endif%}
-</p>
-<p>price: {{obj.price}}</p>
-{%endblock%}
